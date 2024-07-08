@@ -33,7 +33,7 @@ export default function App() {
   return (
         
     <Authenticator>
-      ({ signOut, user }) => (
+      ({ signOut, user }) = (
     <main>
       <h1>My todos</h1>
       <button onClick={createTodo}>+ new</button>
